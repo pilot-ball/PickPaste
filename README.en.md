@@ -4,6 +4,7 @@
 
 <video src="assets/demo.mp4" width="100%" controls autoplay loop muted></video>
 
+![PickPaste Demo](assets/demo.gif)
 ---
 
 ## 💭 Our Philosophy
