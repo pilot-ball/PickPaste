@@ -6,7 +6,7 @@
  **Français** [📖 README.fr.md](README.fr.md) 
 
 
-<video src="assets/a.mp4" width="100%" controls autoplay loop muted></video>
+<video src="assets/demo.gif" width="100%" controls autoplay loop muted></video>
 
 ---
 

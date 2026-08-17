@@ -2,7 +2,7 @@
 
 **Stop wasting time on window switching. One click to launch, totally transform your workflow.**
 
-<video src="assets/a.mp4" width="100%" controls autoplay loop muted></video>
+<video src="assets/demo.mp4" width="100%" controls autoplay loop muted></video>
 
 ---
 
