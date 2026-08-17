@@ -4,6 +4,8 @@
 
 <video src="assets/a.mp4" width="100%" controls autoplay loop muted></video>
 
+![PickPaste Demo](assets/demo.gif)
+
 ---
 
 ## 💭 私たちの哲学

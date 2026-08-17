@@ -8,6 +8,8 @@
 
 <video src="assets/demo.gif" width="100%" controls autoplay loop muted></video>
 
+![PickPaste Demo](assets/demo.gif)
+
 ---
 
 ## 💭 Our Philosophy
