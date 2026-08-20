@@ -2,9 +2,16 @@
 
 **Stop wasting time on window switching. One click to launch, totally transform your workflow.**
 
-<video src="assets/a.mp4" width="100%" controls autoplay loop muted></video>
+![PickPaste Demo](assets/pickpaste.gif)
 
----
+- [💭 Our Philosophy](#-our-philosophy)
+- [⚡ Problem → Solution → Results](#-problem--solution--results)
+- [💡 What This Gets You](#-what-this-gets-you)
+- [👥 Who Loves This & How It Helps](#-who-loves-this--how-it-helps)
+- [🚀 Quick Start](#-quick-start)
+- [❓ FAQ & Clarifications](#-faq--clarifications)
+- [⚖️ License](#license)
+
 
 ## 💭 Our Philosophy
 
@@ -16,7 +23,6 @@ We protect what matters: **your concentration, your flow state, your satisfactio
 
 This isn't just about saving time. **It's about preserving what's most valuable in your career: your attention.**
 
----
 
 ## ⚡ Problem → Solution → Results
 
@@ -46,7 +52,6 @@ Research shows **every window switch takes 15-25 seconds to recover focus**. A t
 | Focus recovery moments | 15+ times | 0 times |
 | Work satisfaction | 😫 Drained | 😎 Smooth |
 
----
 
 ## 💡 What This Gets You
 
@@ -65,7 +70,6 @@ Memory usage <10MB, completely offline, zero tracking.
 ### 🎯 Minimalist Philosophy
 Does one thing perfectly. Not a bloated "clipboard manager".
 
----
 
 ## 👥 Who Loves This & How It Helps
 
@@ -90,17 +94,15 @@ Save 10 minutes of focus time from what used to be 15 minutes of window switchin
 - Content curation (PDFs, emails, chats → document)
 - Any job involving "moving text between windows"
 
----
 
-## 🚀 Quick Start & Installation & Configuration
+## 🚀 Quick Start
 
-### ⚡ 30-Second Launch
+### ⚡ 1-Second Launch
 
-1. **Download** [`PickPaste.exe`](bin/PickPaste.exe)
-2. **Double-click to run**
-3. **Done** — Immediately ready to use
+1. **Download**  [![Download PickPaste](https://img.shields.io/badge/Download-PickPaste-blue)](https://github.com/pilot-ball/PickPaste/releases/latest)
 
-No installation, no configuration, no restart needed.
+2. Double-click PickPaste.exe to use it immediately. No installation, configuration, or computer restart is required.
+
 
 ### 🎮 Hotkeys
 
@@ -115,15 +117,30 @@ Also supports mouse side buttons (XButton1/XButton2) for the same actions.
 
 ### ⚙️ Custom Configuration (Optional)
 
-Edit `config.ini`:
+Make sure config.ini is in the same folder as PickPaste.exe, then edit config.ini:
 
 ```ini
 [Hotkeys]
-EnableKeyboard=true    # Keyboard shortcuts
-EnableXButton=true     # Mouse side buttons
+EnableKeyboard=true # Enable keyboard shortcuts Ctrl+Alt+C, Ctrl+Alt+V, Ctrl+Alt+X, Ctrl+Alt+Q EnableXButton=true # Enable mouse side buttons
+EnableXButton=true # Enable mouse side buttons
+```
+To disable keyboard shortcuts or mouse side buttons, use the following settings:
+```ini
+[hotkeys]
+EnableKeyboard=false # Disable keyboard shortcuts Ctrl+Alt+C, Ctrl+Alt+V, Ctrl+Alt+X, Ctrl+Alt+Q
+EnableXButton=false # Disable mouse side buttons
+```
+You can remap any action to match your preferred workflow
+```ini
+[hotkeys]
+# Custom key combinations (Format: Modifier+Modifier+Key)
+HotkeyCollect=Ctrl+Alt+C  # Collect selected text into queue
+HotkeyPaste=Ctrl+Alt+V    # Paste next item from queue
+HotkeyClear=Ctrl+Alt+X    # Clear current text queue
+HotkeyStatus=Ctrl+Alt+Q   # Display queue status in console
 ```
 
-Save and changes take effect immediately. No restart needed.
+Save the file and run PickPaste.exe again for the changes to take effect. No computer restart is required.
 
 ### 📋 System Requirements
 
@@ -137,7 +154,6 @@ Save and changes take effect immediately. No restart needed.
 
 **Bottom line**: Windows 10 or newer? PickPaste works. Completely zero dependencies.
 
----
 
 ## ❓ FAQ & Clarifications
 
@@ -164,16 +180,8 @@ A: Completely free. MIT license.
 
 **It is**: A laser-focused efficiency tool.
 
----
-
 ## License
 
 MIT License — [See LICENSE file](LICENSE)
 
 Free to use, modify, and share.
-
----
-
-**Stop switching. Keep flowing. Get things done.** 🎯
-
-Made with 💪 for people who refuse to waste their focus on window switching.

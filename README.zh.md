@@ -2,9 +2,16 @@
 
 **不再浪费时间在窗口切换上。一键启动，彻底改变你的工作流。**
 
-<video src="assets/a.mp4" width="100%" controls autoplay loop muted></video>
+![PickPaste Demo](assets/pickpaste.gif)
 
----
+- [💭 产品理念](#-产品理念)
+- [⚡ 问题 → 解决方案 → 对比](#-问题--解决方案--对比)
+- [💡 这东西到底能帮你什么](#-这东西到底能帮你什么)
+- [👥 谁会爱上这个 & 实际帮助](#-谁会爱上这个--实际帮助)
+- [🚀 快速开始](#-快速开始)
+- [❓ 常见问题 & 说明](#-常见问题--说明)
+- [⚖️ 许可证](#️-许可证)
+
 
 ## 💭 产品理念
 
@@ -16,7 +23,6 @@
 
 这不仅仅是省时间。**这是保护你职业生涯中最宝贵的资产：你的注意力。**
 
----
 
 ## ⚡ 问题 → 解决方案 → 对比
 
@@ -46,7 +52,6 @@
 | 注意力恢复次数 | 15+ 次 | 0 次 |
 | 工作满足感 | 😫 疲惫 | 😎 顺畅 |
 
----
 
 ## 💡 这东西到底能帮你什么
 
@@ -65,7 +70,6 @@
 ### 🎯 极简哲学
 只做一件事，把它做到极致。不是臃肿的"剪贴板管理器"。
 
----
 
 ## 👥 谁会爱上这个 & 实际帮助
 
@@ -90,17 +94,13 @@
 - 内容编纂（PDF、邮件、聊天 → 文档）
 - 任何每天都在"搬运文字"的工作
 
----
 
-## 🚀 快速开始 & 安装 & 配置
+## 🚀 快速开始
 
-### ⚡ 30秒启动
+### ⚡ 1秒启动
 
-1. **下载** [`PickPaste.exe`](bin/PickPaste.exe)
-2. **双击运行**
-3. **完成** — 立即可用
-
-就这样。不需要安装、配置、重启。
+1. **下载** [![Download PickPaste](https://img.shields.io/badge/Download-PickPaste-blue)](https://github.com/pilot-ball/PickPaste/releases/latest)
+2. **双击运行 PickPaste.exe** 立即可用，不需要安装、配置或者重启电脑。
 
 ### 🎮 快捷键
 
@@ -115,15 +115,21 @@
 
 ### ⚙️ 自定义配置（可选）
 
-编辑 `config.ini`：
+确保配置文件`config.ini`与PickPaste.exe放置在同一文件夹下，编辑 `config.ini`：
 
 ```ini
 [Hotkeys]
-EnableKeyboard=true    # 键盘快捷键
-EnableXButton=true     # 鼠标侧键
+EnableKeyboard=true    # 启用键盘快捷键 Ctrl+Alt+C, Ctrl+Alt+V, Ctrl+Alt+X, Ctrl+Alt+Q
+EnableXButton=true     # 启用鼠标侧键
+```
+如果想关闭键盘快捷键或者鼠标侧键，参考如下设置：
+```ini
+[Hotkeys]
+EnableKeyboard=false    # 停用键盘快捷键 Ctrl+Alt+C, Ctrl+Alt+V, Ctrl+Alt+X, Ctrl+Alt+Q
+EnableXButton=false     # 停用鼠标侧键
 ```
 
-保存即生效，无需重启。
+保存后重新运行PickPaste.exe即生效，无需重启电脑。
 
 ### 📋 系统要求
 
@@ -135,9 +141,6 @@ EnableXButton=true     # 鼠标侧键
 | **内存** | <10 MB |
 | **磁盘** | <2 MB |
 
-**简而言之**：Windows 10 或更新？PickPaste 就能用。完全零依赖。
-
----
 
 ## ❓ 常见问题 & 说明
 
@@ -164,16 +167,10 @@ A: 完全免费。MIT 开源协议。
 
 **它就是**：激光聚焦的效率工具。
 
----
 
-## 许可证
+## ⚖️ 许可证
 
 MIT License — [详见 LICENSE](LICENSE)
 
 自由使用、修改、分享。
 
----
-
-**Stop switching. Keep flowing. Get things done.** 🎯
-
-Made with 💪 for people who refuse to waste their focus on window switching.

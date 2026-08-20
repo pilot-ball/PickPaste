@@ -1,4 +1,11 @@
-# 🚀 PickPaste — Copy continuously. Paste continuously. 
+<p align="center">
+  <img src="assets/logo.png" width="150">
+</p>
+<h1 align="center">PickPaste</h1>
+
+<p align="center">
+  Copy continuously. Paste continuously.
+</p>
 
  **English**  [📖 README.en.md](README.en.md) 
  **中文**  [📖 README.zh.md](README.zh.md) 
@@ -6,9 +13,42 @@
  **Français** [📖 README.fr.md](README.fr.md) 
 
 
-<video src="assets/a.mp4" width="100%" controls autoplay loop muted></video>
+![PickPaste Demo](assets/pickpaste.gif)
 
----
+<video src="assets/demo.mp4#t=0.002" poster="assets/demo.mp4" controls muted width="100%">
+</video>
+
+- [💭 Our Philosophy](#-our-philosophy)
+- [⚡ Problem → Solution → Results](#-problem--solution--results)
+  - [The Problem](#the-problem)
+  - [Our Solution](#our-solution)
+  - [Results](#results)
+- [💡 What This Gets You](#-what-this-gets-you)
+  - [💪 Efficiency Boost 200%+](#-efficiency-boost-200)
+  - [🧠 Cognitive Load Drops Dramatically](#-cognitive-load-drops-dramatically)
+  - [💨 Zero Learning Cost](#-zero-learning-cost)
+  - [⚡ Truly Lightweight](#-truly-lightweight)
+  - [🎯 Minimalist Philosophy](#-minimalist-philosophy)
+- [👥 Who Loves This \& How It Helps](#-who-loves-this--how-it-helps)
+  - [Sales/Operations — Extract info from multiple sources](#salesoperations--extract-info-from-multiple-sources)
+  - [Editors/Journalists — Organize multi-source research](#editorsjournalists--organize-multi-source-research)
+  - [Developers — Collect error messages, code snippets, parameters](#developers--collect-error-messages-code-snippets-parameters)
+  - [Data Analysts — Extract data from multiple reports](#data-analysts--extract-data-from-multiple-reports)
+  - [Other scenarios](#other-scenarios)
+- [🚀 Quick Start](#-quick-start)
+  - [⚡ 1-Second Launch](#-1-second-launch)
+  - [🎮 Hotkeys](#-hotkeys)
+  - [⚙️ Custom Configuration (Optional)](#️-custom-configuration-optional)
+  - [📋 System Requirements](#-system-requirements)
+- [❓ FAQ \& Clarifications](#-faq--clarifications)
+  - [Q: Need admin rights?](#q-need-admin-rights)
+  - [Q: Does it upload my data?](#q-does-it-upload-my-data)
+  - [Q: Will it hog resources?](#q-will-it-hog-resources)
+  - [Q: Mac/Linux support?](#q-maclinux-support)
+  - [Q: Does it cost?](#q-does-it-cost)
+  - [What It's NOT](#what-its-not)
+- [⚖️ License](#️-license)
+
 
 ## 💭 Our Philosophy
 
@@ -20,7 +60,6 @@ We protect what matters: **your concentration, your flow state, your satisfactio
 
 This isn't just about saving time. **It's about preserving what's most valuable in your career: your attention.**
 
----
 
 ## ⚡ Problem → Solution → Results
 
@@ -50,7 +89,6 @@ Research shows **every window switch takes 15-25 seconds to recover focus**. A t
 | Focus recovery moments | 15+ times | 0 times |
 | Work satisfaction | 😫 Drained | 😎 Smooth |
 
----
 
 ## 💡 What This Gets You
 
@@ -69,7 +107,6 @@ Memory usage <10MB, completely offline, zero tracking.
 ### 🎯 Minimalist Philosophy
 Does one thing perfectly. Not a bloated "clipboard manager".
 
----
 
 ## 👥 Who Loves This & How It Helps
 
@@ -94,17 +131,15 @@ Save 10 minutes of focus time from what used to be 15 minutes of window switchin
 - Content curation (PDFs, emails, chats → document)
 - Any job involving "moving text between windows"
 
----
 
-## 🚀 Quick Start & Installation & Configuration
+## 🚀 Quick Start
 
-### ⚡ 30-Second Launch
+### ⚡ 1-Second Launch
 
-1. **Download** [`PickPaste.exe`](bin/PickPaste.exe)
-2. **Double-click to run**
-3. **Done** — Immediately ready to use
+1. **Download**  [![Download PickPaste](https://img.shields.io/badge/Download-PickPaste-blue)](https://github.com/pilot-ball/PickPaste/releases/latest)
 
-No installation, no configuration, no restart needed.
+2. Double-click PickPaste.exe to use it immediately. No installation, configuration, or computer restart is required.
+
 
 ### 🎮 Hotkeys
 
@@ -119,15 +154,29 @@ Also supports mouse side buttons (XButton1/XButton2) for the same actions.
 
 ### ⚙️ Custom Configuration (Optional)
 
-Edit `config.ini`:
+Make sure config.ini is in the same folder as PickPaste.exe, then edit config.ini:
 
 ```ini
 [Hotkeys]
-EnableKeyboard=true    # Keyboard shortcuts
-EnableXButton=true     # Mouse side buttons
+EnableKeyboard=true # Enable keyboard shortcuts Ctrl+Alt+C, Ctrl+Alt+V, Ctrl+Alt+X, Ctrl+Alt+Q EnableXButton=true # Enable mouse side buttons
+EnableXButton=true # Enable mouse side buttons
 ```
-
-Save and changes take effect immediately. No restart needed.
+To disable keyboard shortcuts or mouse side buttons, use the following settings:
+```ini
+[hotkeys]
+EnableKeyboard=false # Disable keyboard shortcuts Ctrl+Alt+C, Ctrl+Alt+V, Ctrl+Alt+X, Ctrl+Alt+Q
+EnableXButton=false # Disable mouse side buttons
+```
+You can remap any action to match your preferred workflow
+```ini
+[hotkeys]
+# Custom key combinations (Format: Modifier+Modifier+Key)
+HotkeyCollect=Ctrl+Alt+C  # Collect selected text into queue
+HotkeyPaste=Ctrl+Alt+V    # Paste next item from queue
+HotkeyClear=Ctrl+Alt+X    # Clear current text queue
+HotkeyStatus=Ctrl+Alt+Q   # Display queue status in console
+```
+Save the file and run PickPaste.exe again for the changes to take effect. No computer restart is required.
 
 ### 📋 System Requirements
 
@@ -141,7 +190,6 @@ Save and changes take effect immediately. No restart needed.
 
 **Bottom line**: Windows 10 or newer? PickPaste works. Completely zero dependencies.
 
----
 
 ## ❓ FAQ & Clarifications
 
@@ -168,16 +216,10 @@ A: Completely free. MIT license.
 
 **It is**: A laser-focused efficiency tool.
 
----
 
-## License
+## ⚖️ License
 
 MIT License — [See LICENSE file](LICENSE)
 
 Free to use, modify, and share.
 
----
-
-**Stop switching. Keep flowing. Get things done.** 🎯
-
-Made with 💪 for people who refuse to waste their focus on window switching.

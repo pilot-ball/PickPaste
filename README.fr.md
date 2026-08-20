@@ -2,9 +2,16 @@
 
 **Ne gaspillez plus de temps en changement de fenêtre. Un clic pour lancer, transformez complètement votre flux de travail.**
 
-<video src="assets/a.mp4" width="100%" controls autoplay loop muted></video>
+![PickPaste Demo](assets/pickpaste.gif)
 
----
+- [💭 Notre Philosophie](#-notre-philosophie)
+- [⚡ Problème → Solution → Résultats](#-problème--solution--résultats)
+- [💡 Ce Que Vous Obtenez](#-ce-que-vous-obtenez)
+- [👥 Qui Adore Cela & Comment Ça Aide](#-qui-adore-cela--comment-ça-aide)
+- [🚀 Démarrage Rapide (C'est Si Simple)](#-démarrage-rapide-cest-si-simple)
+- [❓ FAQ](#-faq)
+- [⚖️ Licence](#️-licence)
+
 
 ## 💭 Notre Philosophie
 
@@ -16,7 +23,6 @@ Nous protégeons ce qui compte : **votre concentration, votre état de flux, vot
 
 Ce n'est pas seulement une économie de temps. **C'est préserver ce qui est le plus précieux dans votre carrière : votre attention.**
 
----
 
 ## ⚡ Problème → Solution → Résultats
 
@@ -46,7 +52,6 @@ La recherche montre que **chaque changement de fenêtre prend 15-25 secondes pou
 | Moments de récupération de concentration | 15+ fois | 0 fois |
 | Satisfaction du travail | 😫 Épuisé | 😎 Fluide |
 
----
 
 ## 💡 Ce Que Vous Obtenez
 
@@ -65,7 +70,6 @@ Utilisation mémoire <10MB, complètement hors ligne, zéro suivi.
 ### 🎯 Philosophie Minimaliste
 Fait une chose parfaitement. Pas un « gestionnaire de presse-papiers » bloated.
 
----
 
 ## 👥 Qui Adore Cela & Comment Ça Aide
 
@@ -90,17 +94,13 @@ Fait une chose parfaitement. Pas un « gestionnaire de presse-papiers » bloated
 - Curation de contenu (PDFs, emails, chats → document)
 - Tout travail impliquant « déplacer du texte entre fenêtres »
 
----
 
-## Démarrage Rapide (C'est Si Simple)
+## Démarrage Rapide
 
-### ✨ Configuration en 30 Secondes
+### ✨ Lancement en 1 Seconde
 
-1. **Télécharger** [`PickPaste.exe`](bin/PickPaste.exe)
-2. **Double-cliquer pour exécuter**
-3. **Fait** — Commencez à travailler
-
-*C'est tout. Vraiment.*
+1. **Télécharger** [![Download PickPaste](https://img.shields.io/badge/Download-PickPaste-blue)](https://github.com/pilot-ball/PickPaste/releases/latest)
+2. Double-cliquez sur PickPaste.exe pour l'utiliser immédiatement. Aucune installation, configuration ou redémarrage de l'ordinateur n'est nécessaire.
 
 ### 🎮 Raccourcis Clavier
 
@@ -113,37 +113,27 @@ Fait une chose parfaitement. Pas un « gestionnaire de presse-papiers » bloated
 
 **Les utilisateurs de souris aussi** : Supporte les boutons latéraux de la souris (XButton1/XButton2) pour les mêmes actions.
 
----
 
-## Traditionnel vs PickPaste
+### ⚙️ Configuration (Complètement Optionnel)
 
-| Métrique | Traditionnel | PickPaste |
-|----------|-------------|----------|
-| Temps pour 10 entrées de données | 20+ minutes | 3-4 minutes |
-| Changements de fenêtre | 20+ fois | 1 fois |
-| Moments de récupération de concentration | 15+ fois | 0 fois |
-| Raison restante | 50% | 95% |
-| Satisfaction du travail | 😫 | 😎 |
+Assurez-vous que config.ini se trouve dans le même dossier que PickPaste.exe, puis modifiez config.ini :
 
----
+```ini
+[Hotkeys]
+EnableKeyboard=true    # Activer les raccourcis clavier Ctrl+Alt+C, Ctrl+Alt+V, Ctrl+Alt+X, Ctrl+Alt+Q
+EnableXButton=true     # Activer les boutons latéraux de la souris
+```
 
-## Exemples Concrets
+Pour désactiver les raccourcis clavier ou les boutons latéraux de la souris, utilisez les paramètres suivants :
+```ini
+[HotKeys]
+EnableKeyboard=false # Désactiver les raccourcis clavier Ctrl+Alt+C, Ctrl+Alt+V, Ctrl+Alt+X, Ctrl+Alt+Q
+EnableXButton=false # Désactiver les boutons latéraux de la souris
+```
 
-### Scénario 1️⃣ — Remplissage de Formulaire
-- **Traditionnel**: Voir un champ → copier → ouvrir formulaire → coller → voir le champ suivant → répéter 30 fois 😵‍💫
-- **PickPaste**: Voir tous les champs et copier → ouvrir formulaire → coller en continu → c'est fait ✨
+Enregistrez le fichier et exécutez à nouveau PickPaste.exe pour que les modifications prennent effet. Aucun redémarrage de l'ordinateur n'est nécessaire.
 
-### Scénario 2️⃣ — Collecte de Données
-- **Traditionnel**: Basculer entre email, PDF, chat trois fois, perdant votre place à chaque fois
-- **PickPaste**: Collectez calmement les données de toutes les sources → basculez une fois au document cible → colle par lot
-
-### Scénario 3️⃣ — Rédaction de Rapport
-- **Traditionnel**: Recherche → basculer vers document → écrire → recherche → basculer… flux de travail détruit
-- **PickPaste**: Collectez d'abord tout le matériel → retournez au document → écrivez sans interruption
-
----
-
-## Configuration Requise
+### Configuration Requise
 
 | Élément | Exigence |
 |--------|----------|
@@ -159,31 +149,16 @@ Fait une chose parfaitement. Pas un « gestionnaire de presse-papiers » bloated
 
 **Au final** : Vous avez Windows 10 ? PickPaste fonctionne.
 
----
+## Traditionnel vs PickPaste
 
-## Configuration (Complètement Optionnel)
+| Métrique | Traditionnel | PickPaste |
+|----------|-------------|----------|
+| Temps pour 10 entrées de données | 20+ minutes | 3-4 minutes |
+| Changements de fenêtre | 20+ fois | 1 fois |
+| Moments de récupération de concentration | 15+ fois | 0 fois |
+| Raison restante | 50% | 95% |
+| Satisfaction du travail | 😫 | 😎 |
 
-Vous voulez des raccourcis personnalisés ? Modifiez `config.ini` dans le répertoire du projet :
-
-```ini
-[Hotkeys]
-EnableKeyboard=true    # Raccourcis clavier
-EnableXButton=true     # Boutons latéraux de souris
-```
-
-Enregistrez et les modifications prennent effet immédiatement. Aucun redémarrage nécessaire.
-
----
-
-## Ce Que Ce N'Est Pas
-
-- ❌ Pas un « gestionnaire d'historique de presse-papiers » — ceux-ci tentent de tout sauvegarder et deviennent compliqués
-- ❌ Pas un « outil de collaboration cloud » — nous nous concentrons sur l'efficacité locale
-- ❌ Pas une application lourde — vous ne remarquerez sa présence que lorsqu'elle vous sauvera
-
-**C'est** : Un outil d'efficacité hyper-focalisé. Un travail, réalisé parfaitement.
-
----
 
 ## FAQ
 
@@ -202,54 +177,17 @@ R: Windows uniquement pour le moment. Les possibilités futures existent.
 **Q: Combien de temps puis-je l'utiliser ?**  
 R: Pour toujours. Licence MIT, complètement gratuit.
 
----
 
-## Notre Philosophie
+### Ce Que Ce N'Est Pas
 
-> **Notre objectif n'est pas de vous faire travailler plus vite, c'est de protéger votre concentration.**
+- ❌ Pas un « gestionnaire d'historique de presse-papiers » — ceux-ci tentent de tout sauvegarder et deviennent compliqués
+- ❌ Pas un « outil de collaboration cloud » — nous nous concentrons sur l'efficacité locale
+- ❌ Pas une application lourde — vous ne remarquerez sa présence que lorsqu'elle vous sauvera
 
-La plupart des outils tentent d'optimiser la vitesse en surface. PickPaste est différent.
+**C'est** : Un outil d'efficacité hyper-focalisé. Un travail, réalisé parfaitement.
 
-Nous optimisons le profond — votre concentration, votre état de flux, votre satisfaction en complétant le travail.
 
-**Ce n'est pas seulement pour économiser du temps. C'est pour préserver ce qui compte le plus dans votre carrière : votre attention.**
-
----
-
-## Feuille de Route
-
-Nous suivons strictement la philosophie du « un seul travail ». Idées futures :
-
-- 📊 Visualisation de la file (voir ce que vous avez collecté)
-- 🎮 Plus d'options de raccourci personnalisé
-- 🪟 Profils multi-fenêtres
-- 📋 Amélioration de la préservation du format du presse-papiers
-
-Chaque nouvelle fonctionnalité se demande : **Cela réduit-il le changement de contexte ?**
-
-Sinon, nous ne le construisons pas.
-
----
-
-## Télécharger & Commencer
-
-👉 **[Télécharger PickPaste.exe](bin/PickPaste.exe)**
-
-Double-cliquez et commencez votre révolution productive.
-
-Pas d'installation. Pas de configuration. Pas de redémarrage.
-
----
-
-## Soutenir le Projet
-
-- ⭐ Donnez une étoile si cet outil transforme votre flux de travail
-- 🤝 Partagez avec des collègues piégés dans l'enfer du changement de fenêtre
-- 💬 Dites-nous votre histoire — les cas réels aident les autres à décider
-
----
-
-## Licence
+## ⚖️ Licence
 
 Licence MIT — [Voir le fichier LICENSE](LICENSE)
 
